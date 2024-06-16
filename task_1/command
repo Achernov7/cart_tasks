@@ -1,0 +1,15 @@
+<?php
+
+if (PHP_SAPI !== 'cli') {
+    die('CLI only');
+}
+
+if ($argv[1] == 'symlinks') {
+    symlink(__DIR__ . '/resources/css', 'public/css');
+}
+
+if ($argv[1] == 'migrate') {
+    require_once __DIR__ . '/init.php';
+    require_once __DIR__ . '/migrations/migration.php';
+}
+

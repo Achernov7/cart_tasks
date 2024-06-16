@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+    padding: 0;
+    margin: 0%;
+}
+body {
+    padding: 0;
+    height: 100%;
+    margin: 0%;
+}
+
+._component{
+    height: 100%;
+    background: linear-gradient(#ca6363, #727acc);
+}
+
+._component_box{
+    height: 98%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+._component_box_content{
+    display: flex;
+    justify-content: center;
+}
+
+._component_box_content_product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+._component_box_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+._component_box_content_error{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
